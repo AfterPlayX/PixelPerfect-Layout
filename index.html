@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/style.css">
+  
+  <title>Stronke dla Piotrke</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navigation">
+      <div class="navigation__left-half">
+        <div class="navigation__mobile-menu">
+          <div class="navigation__mobile-menu__line"></div>
+          <div class="navigation__mobile-menu__line"></div>
+          <div class="navigation__mobile-menu__line"></div>
+        </div>
+        <div class="navigation__logo">
+          <img alt="logo" src="assets/images/logo.svg"/>
+        </div>
+        <div class="navigation__menu">
+            <div class="navigation__list"><a class="navigation__list--option" href="#">Collections</a></div>
+            <div class="navigation__list"><a class="navigation__list--option" href="#">Men</a></div>
+            <div class="navigation__list"><a class="navigation__list--option" href="#">Women</a></div>
+            <div class="navigation__list"><a class="navigation__list--option" href="#">About</a></div>
+            <div class="navigation__list"><a class="navigation__list--option" href="#">Contact</a></div>
+          </ul>
+        </div>
+      </div>
+      <div class="navigation__blank-spot"></div>
+      <div class="navigation__right-half">
+        <img class="navigation__profile navigation__profile--cart" alt="cart" src="assets/images/icon-cart.svg"/>
+        <img class="navigation__profile navigation__profile--icon" alt="profile-icon" src="assets/images/image-avatar.png"/>
+      </div>
+    </nav>
+    <main class="main-content">
+      <div class="left-section">
+        <img class="left-section__main-img" alt="shoe-image" src="assets/images/image-product-1.jpg"/>
+        <div class="left-section__gallery">
+          <img class="left-section__gallery__img" alt="shoe-image" src="assets/images/image-product-1-thumbnail.jpg"/>
+          <img class="left-section__gallery__img" alt="shoe-image" src="assets/images/image-product-2-thumbnail.jpg"/>
+          <img class="left-section__gallery__img" alt="shoe-image" src="assets/images/image-product-3-thumbnail.jpg"/>
+          <img class="left-section__gallery__img" alt="shoe-image" src="assets/images/image-product-4-thumbnail.jpg"/>
+        </div>
+      </div>
+      <div class="right-section">
+        <h1 class="right-section__text right-section__text--company">Sneaker Company</h1>
+        <h2 class="right-section__text right-section__text--product-name">Fall Limited Edition Sneakers</h2>
+        <p class="right-section__text right-section__text--description">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <div class="right-section__text__price-and-discount"><div class="right-section__text__price-and-discount--price">$125.00</div><div class="right-section__text__price-and-discount--rabate"><h4 class="right-section__text__price-and-discount--rabate-content">50%</h4></div><s class="right-section__text__price-and-discount--mobile-old-price">$250.00</s></div>
+        <h5 class="right-section__text right-section__text--old-price"><s>$250.00</s></h5>
+        <div class="right-section__text__ordering">
+          <div class="right-section__text__ordering__add-items">
+            <button class="right-section__text__ordering__add-items__change right-section__text__ordering__add-items__change--minus" aria-hidden="true"> <img alt="minus" src="assets/images/icon-minus.svg"/></button>
+            <span class="right-section__text__ordering__add-items__counter">0</span> 
+            <button class="right-section__text__ordering__add-items__change right-section__text__ordering__add-items__change--plus" aria-hidden="true"> <img alt="plus" src="assets/images/icon-plus.svg"/></button>  
+          </div>
+          <button class="right-section__text__ordering__add-to-cart"> <img class="right-section__text__ordering__add-to-cart--img" alt="cart" class="add-cart" src="assets/images/icon-cart.svg"/> Add to cart </button>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
